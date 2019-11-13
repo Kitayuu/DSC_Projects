@@ -111,8 +111,9 @@ void setup() {
   pinMode(relay, OUTPUT); // declare relay LED as output
 
   // LCD start
-  lcd.begin(20, 4); // always in setup
-  lcd.init();      // initialize the lcd
+// lcd.begin(20, 4); // always in setup
+  lcd.begin();
+//  lcd.init();      // initialize the lcd
   lcd.backlight(); // initialize the lcd backlight
 
   // initialize thermocouple
