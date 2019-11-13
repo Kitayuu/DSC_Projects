@@ -1,0 +1,11 @@
+there're 2 ways to use logger
+
+1.by connect it to serial monitor
+ 1.1 connect the logger to computer
+ 1.2 open Arduino program then open Serial monitor (shortcut ctrl+shift+m)
+ 1.3 put the value of temperature needed to serial monitor, relay LED will light up.
+ 1.4 turn on the recording switch to start recording. (P.S. make sure micro SD-card is inserted) 
+
+2.manaully
+ 2.1 turn on the relay switch
+ 2.2 turn on the recording switch to start recording.

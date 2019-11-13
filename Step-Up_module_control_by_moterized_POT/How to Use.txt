@@ -1,0 +1,8 @@
+1.Connect the controller with a serial USB to computer.
+
+2.Open Arduino program then open Serial monitor (using shortcut "ctrl+shift+m")
+
+3.Command the voltage needed by typing number 12-80, Command the relay by typing "on" or "off"
+
+P.S. every time user assign new voltage needed, the relay will turn off automatically for safety purpose. 
+please turn it on manually by type "on" into serial monitor.
